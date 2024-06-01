@@ -1,0 +1,35 @@
+/* Header Styles */
+header {
+  position: relative;
+  background: rgba(248, 248, 248, 0.7); /* Semi-transparent white background */
+  height: 70px;
+}
+
+/* Buttons Styles */
+.top-left-buttons, .top-right-buttons {
+  position: absolute;
+  top: 17.5px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.top-left-buttons {
+  left: 10px;
+}
+
+.top-right-buttons {
+  right: 10px;
+}
+
+.top-left-buttons a, .top-right-buttons a {
+  color: #002366;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.top-left-buttons a:hover, .top-right-buttons a:hover {
+  color: #000; /* Black color on hover */
+  text-decoration: underline; /* Optional: add an underline on hover */
+}

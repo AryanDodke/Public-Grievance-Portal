@@ -1,0 +1,69 @@
+.grievance-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center; /* Center align the container content */
+}
+
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select,
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #008080;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.preview-image img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+/* Center the "Log Out" button */
+.logout-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logout-button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; /* Adjust the padding as needed */
+  width: 100%; /* Make the button full width */
+  background-color: #008080;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

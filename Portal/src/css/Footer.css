@@ -1,0 +1,65 @@
+/* Footer Styles */
+#copyright {
+  background: transparent; /* Change background color */
+  color: #fff;
+  padding: 20px 0; /* Adjust padding */
+  text-align: center;
+  font-family: 'YourCustomFont', sans-serif;
+}
+
+/* Footer Copyright Text Styles */
+#copyright p {
+  font-size: 16px;
+  margin: 0; /* Remove the default margin */
+}
+
+/* Contact Info Styles */
+#copyright p i {
+  color: #fff; /* Change icon color to white */
+  margin-right: 10px;
+}
+
+/* Social Icons Styles */
+#copyright .social-icon {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#copyright .social-icon li span {
+  color: #fff; /* Change text color to white */
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#copyright .social-icon a {
+  color: #fff; /* Change icon color to white */
+  font-size: 24px;
+  background: #333; /* Change the background color of social icons */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#copyright .social-icon a:hover {
+  background: #555; /* Change the background color on hover */
+}
+/* Contact Info Styles */
+#copyright p i {
+  color: #000; /* Change icon color to black */
+  margin-right: 10px;
+}
+
+/* Change the color of the "Phone" and email text to black */
+#copyright p span {
+  color: #000;
+}

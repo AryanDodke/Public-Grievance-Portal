@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light Blue background color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333; /* Dark gray text color */
+}
+
+hr {
+    border: 1px solid #333; /* Dark gray border */
+    margin: 10px 0;
+}
+
+.card {
+    background-color: #fff; /* White card background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007acc; /* Light Blue header background */
+    color: #fff; /* White header text color */
+}
+
+td a {
+    color: #007acc; /* Light Blue link color */
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #007acc; /* Light Blue background */
+    padding: 10px;
+}
+
+.navbar a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+    margin-right: 20px;
+}

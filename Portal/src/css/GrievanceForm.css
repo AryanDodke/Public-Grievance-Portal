@@ -1,0 +1,54 @@
+/* GrievancePage.css */
+.grievance-page {
+  min-height: 100vh;
+  background-color: rgba(0, 128, 128, 0.3); /* Teal color with less opacity */
+  background-image: url('../assets/bg1.png'); /* Replace with your image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.query-button {
+  background-color: #008080; /* Teal color for the button */
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.query-button:hover {
+  background-color: #007070; /* Slightly darker teal on hover */
+}
+
+/* Style for the background image */
+.background-image {
+  opacity: 0.8; /* Adjust the opacity as needed */
+}
+
+/* GrievanceForm.css */
+.grievance-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Adjust as needed */
+}
+
+.background-image {
+  flex: 7; /* 70% of the height */
+}
+
+.news-section {
+  flex: 3; /* 30% of the height */
+  background-color: #f2f2f2; /* Background color for the news section */
+  padding: 20px;
+  overflow: auto; /* Add a scroll bar if needed */
+}

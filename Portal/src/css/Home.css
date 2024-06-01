@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background image and texture */
+body {
+  background-image: url('../assets/bg1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+  font-family: 'YourCustomFont', sans-serif;
+  font-size: 16px;
+  background-blend-mode: multiply;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Style the header text */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+  margin: 20px 0; /* Adjust the top margin to reduce the gap */
+  padding: 20px;
+  font-family: 'YourCustomFont', sans-serif;
+  color: #28a7e9;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* Container styles */
+.container {
+  top: 0;
+  margin-top: -25px;
+  padding: 0 -20px;
+}
+
+/* Section styles */
+#home {
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Row styles */
+.row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Element styles */
+.element {
+  margin-top: 0px;
+}
+
+.sub-element {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+  text-align: left;
+}
+
+/* Button container styles */
+.button-container {
+  text-align: left;
+  margin-top: 20px;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #c0392b;
+  color: #fff;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+  .sub-element {
+    font-size: 16px;
+  }
+}

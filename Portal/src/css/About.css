@@ -1,0 +1,46 @@
+/* Add this CSS to a new or existing stylesheet */
+#about {
+    background: #f8f8f8;
+    padding: 60px 0;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  #about h2 span {
+    color: #007BFF;
+  }
+  
+  .media {
+    margin-top: 30px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .media i {
+    font-size: 36px;
+    color: #007BFF;
+  }
+  
+  .media-heading {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .media-body {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .media {
+      margin-top: 20px;
+    }
+  }
